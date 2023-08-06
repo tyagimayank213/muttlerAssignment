@@ -1,0 +1,52 @@
+#scrapper{
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+}
+#inputContainer form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 1rem;
+    margin-top: 6rem
+}
+form input{
+    padding: 10px;
+}
+input[type="checkbox"]{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+}
+label{
+    font-size: 1.2rem;
+}
+#displayTodo{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 1rem;
+}
+.todoNode{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+.todoNode img{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+}
+img[src="/delete.png"]{
+    width: 20px !important;
+    height: 20px !important;
+    border: none;
+    cursor: pointer;
+}
+hr{
+    height: 500px;
+}
